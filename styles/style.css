@@ -2,12 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 #logoImg {
@@ -19,6 +14,8 @@ nav {
   flex-direction: row;
   align-items: center;
   width: 100vw;
+  justify-content: space-between;
+  height: 70px;
 }
 .logoContainer {
   display: flex;
@@ -31,17 +28,144 @@ nav {
 }
 .navInput {
   height: 42px;
+  outline: none;
+  padding: 10px;
 }
 #search {
   width: 300px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid black;
 }
 #region {
   width: 290px;
+  border: 1px solid black;
 }
+
 .searchButtonLoopa {
-  height: 42px;
+  max-height: 42px;
   width: 42px;
-  border-radius: 0px, 8px, 8px, 0px;
   background-color: #f65858;
   border: none;
+  border-radius: 0 8px 8px 0;
+}
+.secondPartOfNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.english {
+  display: flex;
+  flex-direction: row;
+}
+.singUp {
+  border-radius: 8px;
+  height: 36px;
+  width: 84px;
+  background-color: #00798a;
+  border: none;
+  color: white;
+}
+.singUp:hover {
+  background-color: #01606d;
+  cursor: pointer;
+}
+/* ================================================== NAV STYLES END===========================================*/
+
+/* ================================================== MAIN STYLES START===========================================*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.firstPartOfMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 20%;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.textContentInFirstDivOfMain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  word-break: keep-all;
+  max-width: 500px;
+}
+.joinMeetupButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 40px;
+  background-color: #00798a;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.joinMeetupButton:hover {
+  background-color: #01606d;
+}
+.eventsOfMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.eventsNear {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 150px;
+  gap: 25px;
+  width: 1200px;
+}
+.seeAllEvents {
+  margin-top: 150px;
+  color: #00798a;
+  font-weight: 500;
+}
+.mountainViewCA {
+  background-color: #dde3e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  color: #00798a;
+}
+.eventsPart {
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 300px);
+  gap: 20px;
+}
+.divOfActiv {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  word-break: break-word;
+  max-width: 275px;
+  gap: 20px;
+  margin-bottom: 36px;
+  max-height: 400px;
+}
+.classOfEvent {
+  opacity: 0.5;
+}
+.parametersOfEvents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
