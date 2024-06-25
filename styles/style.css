@@ -134,7 +134,7 @@ main {
   font-weight: 500;
 }
 .mountainViewCA {
-  background-color: #dde3e4;
+  background-color: #ebeff0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,3 +169,50 @@ main {
   align-items: center;
   gap: 5px;
 }
+.divOfActiv p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.onlineEvents {
+  gap: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+/* ========================================= END OF CARD STYLES =============================== */
+/* ========================================= START OF SECOND PART STYLES OF DIV =============================== */
+
+.joinMeetupDiv {
+  border-radius: 10px;
+  background-color: #e9f0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: keep-all;
+  flex-direction: row;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+.joinMeetupDiv div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.joinMeetupDiv div button {
+  background-color: #e32359;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+}
+.joinMeetupDiv div button:hover {
+  background-color: #b50c3c;
+}
+/* ========================================= END OF SECOND PART STYLES OF DIV =============================== */
