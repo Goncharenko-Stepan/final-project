@@ -27,19 +27,22 @@
 
 html {
   font-size: 10px;
+  max-width: 1510px;
+  margin: 0 auto;
 }
 
 button {
   cursor: pointer;
 }
 
-/* ================ START OF NAV ==================== */
+/* ======================================= START OF NAV ========================================== */
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 24px 24px 24px;
+  margin: 11px;
+  position: static;
 }
 .searchContainer {
   display: flex;
@@ -121,8 +124,7 @@ nav {
   font-size: 1.4rem;
 }
 
-/* ======= RIGHT CONTAINER END ======= */
-/* ================ END OF NAV ==================== */
+/* ======================================= END OF NAV ============================================= */
 
 /* ================================================== MAIN STYLES START===========================================*/
 main {
@@ -228,14 +230,32 @@ main {
   gap: 5px;
 }
 .onlineEvents {
-  gap: 36px;
+  gap: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 85%;
 }
+.heading2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130%;
+  gap: 730%;
+  width: 50%;
+}
+.siteLeft {
+  width: 20%;
+  margin: 20px;
+}
+
+.siteRight {
+  color: #00798a;
+  margin: 10px;
+}
+
 /* ========================================= END OF CARD STYLES =============================== */
 /* ========================================= START OF SECOND PART STYLES OF DIV =============================== */
 
@@ -247,7 +267,7 @@ main {
   align-items: center;
   word-break: keep-all;
   flex-direction: row;
-  width: 68%;
+  width: 78%;
   margin-top: 70px;
   padding: 1% 3%;
 }
@@ -293,9 +313,8 @@ main {
   justify-content: center;
 }
 .h3Explore {
-  position: relative;
   margin-top: 64px;
-  margin-right: 850px;
+  margin-right: 65%;
   margin-bottom: 20px;
 }
 /* ========================================= END OF SECOND PART STYLES OF DIV =============================== */
@@ -320,7 +339,7 @@ main {
   align-items: start;
   justify-content: start;
   flex-direction: column;
-  margin-right: 40%;
+  margin-right: 60%;
 }
 .divOfPopularCities {
   display: flex;
@@ -384,22 +403,16 @@ main {
 }
 /* ========================================= END OF how To Meet Up Works STYLES OF DIV =============================== */
 /* ========================================= START OF Frienships STYLES OF DIV =============================== */
+
 .friendShips {
   margin-top: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 32px;
-  width: 100%;
+  width: 80%;
 }
 .imgOfFriendShipsPart {
   margin-top: 30px;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(3, 300px);
-  gap: 20px;
-  width: 100%;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .readMore {
   color: #00798a;
