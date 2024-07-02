@@ -132,25 +132,30 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .firstPartOfMain {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  margin-right: 20%;
+  width: 100%;
+
   margin-top: 100px;
   gap: 50px;
 }
-
-.textContentInFirstDivOfMain {
+/* ========================================================================= */
+.rightSideOfFirstPartOfMain {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   word-break: keep-all;
   max-width: 500px;
 }
+/* ========================================================================= */
+
 .joinMeetupButton {
   display: flex;
   align-items: center;
@@ -172,6 +177,18 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.leftSideOfEventsOfMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.rightSideOfEventsOfMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 55vw;
 }
 .eventsNear {
   display: flex;
@@ -419,6 +436,10 @@ main {
   font-weight: 500;
 }
 /* ========================================= END OF Frienships STYLES OF DIV =============================== */
+/* ========================================= END OF MAIN ==================================================== */
+/* ========================================= START OF ADAPTIV OF MAIN ========================================== */
+
+/* ========================================= END OF ADAPTIV OF MAIN ========================================== */
 /* ================ START OF FOOTER ==================== */
 footer {
   background-color: #212121;

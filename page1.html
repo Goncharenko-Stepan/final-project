@@ -11,13 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/media.css" />
   </head>
 
   <body>
     <!-- ================= START OF NAV ===================== -->
     <nav>
       <div class="logoContainer">
-        <a href="#">
+        <a href="page1.html">
           <img src="assets/navImg/logoImg.svg" alt="logo" />
         </a>
       </div>
@@ -57,31 +58,37 @@
     <!-- ================= START OF MAIN ===================== -->
     <main>
       <div class="firstPartOfMain">
-        <div class="textContentInFirstDivOfMain">
+        <div class="rightSideOfFirstPartOfMain">
           <h1>The people platform—Where interests become friendships</h1>
           <p>
             Whatever your interest, from hiking and reading to networking and
             skill sharing, there are thousands of people who share it on Meetup.
             Events are happening every day—sign up to join the fun.
           </p>
-          <a href="" class="joinMeetupButton">Join Meetup</a>
+          <a href="page2.html" class="joinMeetupButton">Join Meetup</a>
         </div>
-        <img
-          src="assets/mainImg/bikeImg.svg"
-          alt="bike Image"
-          class="bikeImg"
-        />
+        <div class="leftSideOfFirstPartOfMain">
+          <img
+            src="assets/mainImg/bikeImg.svg"
+            alt="bike Image"
+            class="bikeImg"
+          />
+        </div>
       </div>
 
       <div class="eventsOfMainContainer">
         <div class="eventsNear">
-          <h2>Events near</h2>
-          <p class="mountainViewCA">
-            Mountain View, CA
-            <img src="assets/mainImg/pensilMain.svg" alt="pensil" />
-          </p>
+          <div class="leftSideOfEventsOfMainContainer">
+            <h2>Events near</h2>
+            <p class="mountainViewCA">
+              Mountain View, CA
+              <img src="assets/mainImg/pensilMain.svg" alt="pensil" />
+            </p>
+          </div>
+          <div class="rightSideOfEventsOfMainContainer">
+            <p class="seeAllEvents">See all events</p>
+          </div>
         </div>
-        <p class="seeAllEvents">See all events</p>
       </div>
       <!-- ================================== Events part ===================================== -->
       <div class="eventsPart">
@@ -313,9 +320,10 @@
           </div>
         </div>
       </div>
-
+      <!-- ============================== END OF EVENTS ======================================  -->
+      <!-- ============================= JOIN MEETUP ====================================== -->
       <div class="joinMeetupDiv">
-        <div>
+        <div class="joinMeetup">
           <h2>Join Meetup</h2>
           <p>
             People use Meetup to meet new people, learn new things, find
@@ -326,8 +334,9 @@
         </div>
         <img src="assets/mainImg/joinMeetupDivImg.svg" alt="" />
       </div>
+      <!-- ============================= JOIN MEETUP ====================================== -->
       <!-- ======================= CATEGORIES ============================= -->
-      <h2 class="h3Explore">Explore top categories</h2>
+      <h3 class="h3Explore">Explore top categories</h3>
       <div class="exploreTopCategories">
         <div class="category">
           <p>
@@ -432,7 +441,7 @@
             />
             <p>Nashville</p>
           </div>
-          <div class="divOfPopularCities">
+          <div id="theLastCity" class="divOfPopularCities">
             <img
               src="assets/mainImg/popularCitiesImg/miamiImg.webp.svg"
               alt=""
@@ -441,6 +450,7 @@
           </div>
         </div>
       </div>
+      <!-- ====================== HOW MEETUP WORKS ====================== -->
       <div class="howToMeetUpWorks">
         <div class="textContentOfHowToMeetUpWorks">
           <h2>How Meetup works</h2>
