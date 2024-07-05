@@ -23,7 +23,9 @@ html {
 .eventsMainTopRight h4 {
   margin-bottom: 14px;
 }
-
+.eventsMainTopRight {
+  margin-left: 10vw;
+}
 .eventsMainTopContainer {
   margin: 77px 158px;
   display: flex;

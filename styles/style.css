@@ -177,39 +177,42 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-top: 150px;
 }
 .leftSideOfEventsOfMainContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
 }
 .rightSideOfEventsOfMainContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 55vw;
 }
 .eventsNear {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 150px;
   gap: 25px;
-  width: 1200px;
+  width: 100%;
+}
+.h2EventsNear {
+  width: 100px;
 }
 .seeAllEvents {
-  margin-top: 150px;
   color: #00798a;
   font-weight: 500;
+  width: 100px;
 }
 .mountainViewCA {
   background-color: #97cad114;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 180px;
   height: 45px;
   border-radius: 10px;
   color: #00798a;
@@ -227,7 +230,7 @@ main {
   flex-direction: column;
   word-break: break-word;
   max-width: 275px;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 36px;
   max-height: 70%;
 }
@@ -312,6 +315,7 @@ main {
   align-items: center;
   gap: 25px;
 }
+/* ==================== category ================ */
 .category {
   display: flex;
   justify-content: center;
@@ -328,10 +332,11 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-weight: 500;
 }
 .h3Explore {
   margin-top: 64px;
-  margin-right: 65%;
+  margin-right: 75%;
   margin-bottom: 20px;
 }
 /* ========================================= END OF SECOND PART STYLES OF DIV =============================== */
